@@ -1,0 +1,98 @@
+
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 1.2rem 0px 20px 0;
+    background: var(--surface-footer);
+    border-top: 1px solid rgba(255, 255, 255, .06);
+}
+
+.textLearning {
+    margin-top: 1rem;
+}
+
+.textLearning svg {
+    width: .875rem;
+    height: .875rem;
+}
+
+.textLearning span {
+    font-size: .875rem;
+    font-family: 'DMSans', sans-serif;
+    letter-spacing: 0.1px;
+}
+
+.elementsFooter {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    row-gap: 0.59rem;
+}
+
+.categoriesFooter h2 {
+    text-align: right;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 200;
+    font-family: 'DMSans', sans-serif;
+    color: var(--title);
+}
+
+.categoriesFooter-elements {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.59rem;
+    justify-items: flex-end;
+}
+
+.categoriesFooter-elements a {
+    text-decoration: none;
+    color: var(--text);
+    font-size: 0.880rem;
+    font-family: 'DMSans', sans-serif;
+}
+
+.infoFooter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.textLearning svg g path {
+    fill: var(--icon-heart);
+}
+
+.socialMedia-lightMode {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+
+.socialMedia-lightMode img {
+    width: 20px;
+    height: 20px;
+}
+
+.activateModebtn  {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform .3s ease-out;
+}
+
+.copyRight {
+    font-family: 'DMSans', sans-serif;
+    font-size: 0.880rem;
+    letter-spacing: .2px;
+}
+
+.socialMedia-lightMode button:hover,
+.socialMedia-lightMode button:focus-within {
+    transform: rotate(-35deg);
+}

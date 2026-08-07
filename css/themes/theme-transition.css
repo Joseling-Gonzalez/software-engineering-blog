@@ -1,0 +1,25 @@
+html {
+    transition:
+        background-color .27s ease,
+        color .27s ease;
+}
+
+body,
+header,
+footer,
+main,
+section,
+article,
+button,
+input,
+a,
+svg,
+path {
+
+    transition:
+        background-color .27s ease,
+        color .27s ease,
+        border-color .27s ease,
+        fill .27s ease,
+        stroke .25s ease;
+}
