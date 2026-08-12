@@ -1,6 +1,6 @@
-<div id="wrap">
+<div id="wrap" class="home">
     <section id="articles">
-        <h1>Articles</h1>
+        <h1 class="titleHome">Articles</h1>
         <div class="NameArticles">
             <article>
                 <a class="titleArticle" href="#"><span>Using CTE in SQL</span></a>
@@ -53,13 +53,17 @@
         </div>
     </section>
     <section id="categories">
-        <h1>Browse by category</h1>
+        <h1 class="titleHome">Browse by category</h1>
         <div class="NamesCategories">
-            <a href="#"><span>Transact-SQL</span></a>
-            <a href="views/categories/algorithms/index.html"><span>Algorithms</span></a>
-            <a href="#"><span>Data Structure</span></a>
-            <a href="#"><span>Javascript</span></a>
-            <a href="#"><span>CSharp</span></a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#" data-view="tSql"><span>Transact-SQL</span></a></li>
+                    <li><a href="#" data-view="algorithm"><span>Algorithms</span></a></li>
+                    <li><a href="#" data-view="dataStructure"><span>Data Structure</span></a></li>
+                    <li><a href="#" data-view="javascript"><span>Javascript</span></a></li>
+                    <li><a href="#" data-view="cSharp"><span>C Sharp</span></a></li>
+                </ul>
+            </nav>
         </div>
     </section>
 </div>

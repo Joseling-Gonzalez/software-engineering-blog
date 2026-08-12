@@ -25,7 +25,7 @@ body {
     margin: 0 auto;
 }
 
-#main #wrap {
+#main .home {
     height: 860px;
     position: relative;
     display: grid;
@@ -38,7 +38,7 @@ body {
     margin-top: 3.5rem;
 }
 
-section h1 {
+section .titleHome {
     text-transform: uppercase;
     color: var(--title);
     font-family: 'DMSans', sans-serif;
@@ -47,10 +47,14 @@ section h1 {
     margin-bottom: 2rem;
 }
 
-.NamesCategories {
+.NamesCategories nav ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 1.1rem 0.5rem;
+}
+
+.NamesCategories nav ul li {
+    list-style: none;
 }
 
 .NamesCategories a {

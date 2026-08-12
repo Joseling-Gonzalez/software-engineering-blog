@@ -1,21 +1,38 @@
 import { loadCategory } from "../views/category/category.js";
+import { loadHome } from "../views/home.js";
+import { loadAbout } from "../views/about.js";
 
-export function loadRouter() {
-    const nav = document.querySelector('#nav');
+export async function loadRouter() {
+    await loadHome();
 
-    nav.addEventListener('click', async (e) => {
-        const link = e.target.closest('a');        
-        if (!link) 
-            return;
-                
-        const categoryName = link.dataset.view;
-        if (!categoryName) 
-            return;
-       
-        
-        await loadCategory(categoryName);
-        console.log(categoryName);
-        
+    // const nav = document.querySelectorAll('.nav');
+    const home = document.querySelectorAll('.surfaceHome');
+    const about = document.getElementById('about');
 
+    /*Navegation to Home*/
+    home.forEach(home => {
+        home.addEventListener('click', async () => {
+            await loadHome();
+        });
     });
+
+    /*Browse by category from header*/
+    document.addEventListener('click', async (e) => {
+
+        const nav = e.target.closest('.nav a');
+        if (!nav)
+            return;
+
+        const categoryName = nav.dataset.view;
+        if (!categoryName)
+            return;
+
+        await loadCategory(categoryName);
+    });
+
+    /*Navegation to About*/
+    about.addEventListener('click', async () => {
+        await loadAbout();
+    });
+
 }

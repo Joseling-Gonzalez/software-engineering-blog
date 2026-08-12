@@ -1,14 +1,12 @@
 import { loadHeader } from "./header.js";
-import { loadHome } from "../views/home.js";
 import { loadFooter } from "./footer.js";
-
-// import { loadArticle } from "../views/article.js";
+import { loadRouter } from "../module/router.js";
 
 export async function initLayout() {
     await loadLayout();
-    await loadHeader();
-    await loadHome();    
+    await loadHeader(); 
     await loadFooter();
+    await loadRouter();  
 }
 
 

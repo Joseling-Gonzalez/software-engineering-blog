@@ -1,0 +1,38 @@
+#main .About {
+    height: 589px;
+    padding-top: 7rem;
+    margin-top: 3.5rem;
+}
+
+.About .InfoAbout {
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 6rem;
+    align-items: center;
+}
+
+.TitleAbout {
+    font-family: 'DMSans', sans-serif;
+    color: var(--text);
+    font-size: 2.1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+}
+
+.DescriptionAbout p{
+    font-family: 'DMSans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: var(--text);
+    letter-spacing: 1px;
+    padding-bottom: .59rem;
+}
+
+.NavAbout {
+    margin-top: 2.5rem;
+}
+
+.NavAbout .nav ul li{
+    list-style: none;
+} 

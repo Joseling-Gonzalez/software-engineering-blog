@@ -34,21 +34,26 @@ footer {
 
 .categoriesFooter h2 {
     text-align: right;
-    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-size: 1.1rem;
     margin-bottom: 1rem;
     font-weight: 200;
     font-family: 'DMSans', sans-serif;
     color: var(--title);
 }
 
-.categoriesFooter-elements {
+.categoriesFooter-elements ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 0.59rem;
+    gap: 1rem;
     justify-items: flex-end;
 }
 
-.categoriesFooter-elements a {
+.categoriesFooter-elements ul li {
+    list-style: none;
+}
+
+.categoriesFooter-elements ul li a {
     text-decoration: none;
     color: var(--text);
     font-size: 0.880rem;
@@ -61,7 +66,7 @@ footer {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
 }
 
 .textLearning svg g path {

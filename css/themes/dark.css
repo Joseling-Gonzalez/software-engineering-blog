@@ -17,5 +17,6 @@
     --border-top-dropdown: 2px solid rgba(24, 28, 36, .90);
     --border-categories-hover: 1px solid var(--light-gray);
     --boxshadow-dropdown: 0 15px 40px rgba(0, 0, 0, .08);
+    --box-shadow-articles: 0px 0px 2px 1px #475569;
     --transition-color: #0d1117;
 }

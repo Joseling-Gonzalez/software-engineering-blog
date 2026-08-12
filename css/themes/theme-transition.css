@@ -14,7 +14,9 @@ button,
 input,
 a,
 svg,
-path {
+path,
+section,
+article {
 
     transition:
         background-color .27s ease,
