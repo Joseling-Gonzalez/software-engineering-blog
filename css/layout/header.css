@@ -40,6 +40,10 @@
     transition: all 0.5s ease-in-out;
 }
 
+ #categorybtn img {
+        display: none;
+    }
+
 .menu-nav {
     display: flex;
     flex-direction: row;
@@ -106,6 +110,7 @@
 
 .searchForm {
     position: absolute;
+    max-width: 960px;
     right: 33px;
 }
 
@@ -154,6 +159,9 @@
     background: transparent;
     border: none;
     cursor: pointer;
+}
+
+.activateModebtn {
     transition: transform .3s ease-out;
 }
 
@@ -162,7 +170,7 @@
     height: 1.26rem;
 }
 
-.boxSearch button:hover,
-.boxSearch button:focus-within {
+.activateModebtn:hover,
+.activateModebtn:focus-within {
     transform: rotate(-35deg);
 }

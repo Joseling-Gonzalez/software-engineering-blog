@@ -22,7 +22,7 @@
 
 .DescriptionAbout p{
     font-family: 'DMSans', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 200;
     color: var(--text);
     letter-spacing: 1px;
@@ -35,4 +35,13 @@
 
 .NavAbout .nav ul li{
     list-style: none;
+    padding: .20rem 0;
+} 
+
+.NavAbout .nav ul li a{
+    font-family: 'DMSans', sans-serif;
+    text-decoration: none;
+    color: var(--text);
+    font-size: 1.1rem;
+    letter-spacing: .59px;
 } 

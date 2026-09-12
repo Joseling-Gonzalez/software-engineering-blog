@@ -2,21 +2,25 @@
     --background: #FFFFFF;
     --background-dropdown: #F3FAFD;
     --surface-header: hsl(200deg 70% 70%);
+    --surface-header-article: rgba(255, 255, 255, 0.75);
     --surface-headerScroll: rgba(255, 255, 255, 0.75);
-    --border-shadowing: 1px solid #a0d4ee;
     --surface-footer: hsl(200deg 70% 70%);
     --surface-categories: hsl(200deg 64.03% 83.83%);
-    --title: #104aca;
+    --title: #02236e; 
     --title-article: hsl(222deg 21.09% 4.55%);
+    --subtitle-article: #2C0C8B;
     --text: #111315;
-    --icon-heart: #104aca;
+    --icon-heart: #02236e;
     --hover-article: #2a87f7;
     --background-search: #111315;
     --light-gray: #E2E8F0;
+    --border-shadowing: 1px solid #a0d4ee;
+    --border-shadowing-article: 1px solid #f5f3f3;
     --border-categories: 1px solid var(--light-gray);
     --border-top-dropdown: 2px solid #79B6DB;
     --border-categories-hover: 1px solid #475569;
     --box-shadow-articles: 0px 0px 5px 1px #e0dede;
     --boxshadow-dropdown: 0 6px 10px rgba(0, 0, 0, .08);
     --transition-color: #f5f7fa;
+    --menu-movil: #111315;
 }

@@ -1,11 +1,13 @@
 import { loadCategory } from "../views/category/category.js";
-import { loadHome } from "../views/home.js";
+import { loadArticlePerCategory } from "../views/category/article-per-category.js";
+import { loadMarkdownArticle } from "../views/article/markdown-article.js";
+import { loadHtmlArticle } from "../views/article/html-article.js";
+import { loadHome } from "../views/home/home.js";
 import { loadAbout } from "../views/about.js";
 
 export async function loadRouter() {
     await loadHome();
 
-    // const nav = document.querySelectorAll('.nav');
     const home = document.querySelectorAll('.surfaceHome');
     const about = document.getElementById('about');
 
@@ -15,19 +17,30 @@ export async function loadRouter() {
             await loadHome();
         });
     });
+    
 
-    /*Browse by category from header*/
-    document.addEventListener('click', async (e) => {
+    document.addEventListener('click', async (event) => {
 
-        const nav = e.target.closest('.nav a');
-        if (!nav)
+        /* Browse by category nav */
+        const linkCategory = event.target.closest('[data-view]');
+        if (linkCategory) {
+            let categoryName = linkCategory.dataset.view;
+
+            await loadCategory(categoryName);
+            await loadArticlePerCategory(categoryName);
+
             return;
+        }
 
-        const categoryName = nav.dataset.view;
-        if (!categoryName)
+        /* Browse by article */
+        const linkArticle = event.target.closest('[data-article]');
+        if (linkArticle) {
+            let slug = linkArticle.dataset.article;
+
+            await loadHtmlArticle();
+            await loadMarkdownArticle(slug);
             return;
-
-        await loadCategory(categoryName);
+        }
     });
 
     /*Navegation to About*/

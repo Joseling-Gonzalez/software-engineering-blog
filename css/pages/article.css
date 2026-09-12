@@ -1,0 +1,28 @@
+#header.activeArticle {
+  background: var(--surface-header-article);
+  border-bottom: var( --border-shadowing-article);
+}
+
+#articles-content {
+    height: 800px;
+    margin-top: 3.5rem;
+    padding-top: 7rem;
+    display: block;
+}
+
+#articles-content h1 {
+    color: var(--title-article);
+    font-family: 'DMSans', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#articles-content h2{
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'DMSans', sans-serif;
+    color: var(--subtitle-article);
+}
+

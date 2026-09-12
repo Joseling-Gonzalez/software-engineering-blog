@@ -2,6 +2,7 @@
     --background: #111315;
     --background-dropdown: #F3FAFD;
     --surface-header: rgba(24, 28, 36, .90);
+    --surface-header-article: rgba(24, 28, 36, .90);
     --surface-headerScroll: rgba(15, 17, 23, .82);
     --surface-footer: #181C24;
     --text: #f5f5f5;
@@ -10,13 +11,16 @@
     --light-gray: #E2E8F0;
     --title: #66bcf1;
     --title-article: #E3E6E8;
-    --border-shadowing: 1px solid rgba(255, 255, 255, .08);
+    --subtitle-article: hsl(280deg 100% 85%);
     --hover-article: #60A5FA;
     --icon-heart: #66bcf1;
+    --border-shadowing: 1px solid rgba(255, 255, 255, .08);
+    --border-shadowing-article: 1px solid rgba(255, 255, 255, .08);
     --border-categories: 1px solid #475569;
     --border-top-dropdown: 2px solid rgba(24, 28, 36, .90);
     --border-categories-hover: 1px solid var(--light-gray);
     --boxshadow-dropdown: 0 15px 40px rgba(0, 0, 0, .08);
     --box-shadow-articles: 0px 0px 2px 1px #475569;
     --transition-color: #0d1117;
+    --menu-movil: #f5f5f5;
 }
