@@ -42,7 +42,7 @@ export function initTheme() {
                     logo.src = './assets/logo/joseling-logo-white.svg';
                 });
                 fn_changeModeImg(img => {
-                    img.src = '../assets/icons/icon-moon.svg';
+                    img.src = './assets/icons/icon-moon.svg';
                 });
 
                 iconSearch.src = './assets/icons/icon-search-white.svg';
