@@ -1,5 +1,5 @@
 export async function loadArticlePerCategory(view) {
-    const response = await fetch('../content/articles.json');
+    const response = await fetch('./content/articles.json');
     const articles = await response.json();
 
     const articlePerCategory = articles.filter(category => {

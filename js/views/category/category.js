@@ -5,15 +5,15 @@ export async function loadCategory(view) {
     let response = '';
 
     if (view === 'algorithm')
-        response = await fetch('../view/category/algorithm.html');
+        response = await fetch('./view/category/algorithm.html');
     else if (view === 'cSharp')
-        response = await fetch('../view/category/csharp.html');
+        response = await fetch('./view/category/csharp.html');
     else if (view === 'javascript')
-        response = await fetch('../view/category/javascript.html');
+        response = await fetch('./view/category/javascript.html');
     else if (view === 'tSql')
-        response = await fetch('../view/category/t-sql.html');
+        response = await fetch('./view/category/t-sql.html');
     else if (view === 'dataStructure')
-        response = await fetch('../view/category/data-structure.html');
+        response = await fetch('./view/category/data-structure.html');
     else
         return;
 
