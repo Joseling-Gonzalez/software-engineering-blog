@@ -4,14 +4,20 @@ import { loadRouter } from "../module/router.js";
 
 export async function initLayout() {
     await loadLayout();
-    await loadHeader(); 
+    await loadHeader();
     await loadFooter();
-    await loadRouter();  
+    await loadRouter();
 }
 
 
 async function loadLayout() {
-    const response = await fetch('/layout.html');
+    const response = await fetch('./layout.html');
+
+    if (!response.ok) {
+        console.error("Failed to load layout: ${response.status}");
+        return;
+    }
+
     const html = await response.text();
     document.querySelector('#app').innerHTML = html;
 }
