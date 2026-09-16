@@ -13,7 +13,7 @@
     }
 
     #main .About {
-        height: 537px;
+        height: 595px;
     }
 }
 
@@ -25,6 +25,11 @@
     .searchElement input:focus,
     .searchElement input:focus-within {
         width: 605px;
+    }
+
+    .PhotoAbout img {
+        width: 18rem;
+        height: 18rem;
     }
 }
 
@@ -43,18 +48,27 @@
     }
 
     #main .About {
-        height: 580px;
+        height: 740px;
     }
 }
-
 
 @media (max-width:750px) {
     #wrap {
         max-width: 600px;
     }
 
-    #navHeader {
-        display: none;
+    #main .About {
+        height: 892px;
+    }
+
+    .About .InfoAbout {
+        flex-direction: column-reverse;
+        row-gap: 2.6rem;
+        column-gap: 0;
+    }
+
+    .NavAbout { 
+        margin-top: 3rem;
     }
 
     #categorybtn {
@@ -70,6 +84,10 @@
         display: block;
         width: 25px;
         height: 25px;
+    }
+
+    #navHeader {
+        display: none;
     }
 
     #navHeader.active-menu {
@@ -231,11 +249,11 @@
         display: none;
     }
 
-    .category #cArticles{
+    .category #cArticles {
         display: block;
     }
 
-    #cArticles article{
+    #cArticles article {
         margin-bottom: 2rem;
     }
 }
@@ -296,8 +314,17 @@
         max-width: 400px;
     }
 
-    #main .About{
-        height: 650px;
+    #main .About {
+        height: 941px;
+    }
+
+    .About .InfoAbout { 
+        row-gap: 2.1rem;
+    }
+
+    .PhotoAbout img {
+        width: 16rem;
+        height: 16rem;
     }
 
     .activateModebtn img {
@@ -339,5 +366,10 @@
     .categoriesFooter-elements ul {
         gap: .50rem;
     }
+}
 
+@media(max-width: 450px) {
+    #wrap{
+        max-width: 341px;
+    }
 }

@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'DMSans-R';
-    src: url('/assets/fonts/DMSans-Thin.ttf') format('truetype');
+    src: url('../../assets/fonts/DMSans-Thin.ttf') format('truetype');
 }
 
 * {
