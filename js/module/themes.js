@@ -21,7 +21,6 @@ export function initTheme() {
     }
 
     function fn_applyThem(theme) {
-        console.log('theme', theme);
         if (theme === 'dark') {
             document.documentElement.setAttribute('data-theme', 'dark');
             fn_changeLogo(logo => {
