@@ -1,5 +1,5 @@
 export async function loadRecentArticles() {
-    const response = await fetch('../content/articles.json');
+    const response = await fetch('./content/articles.json');
     const articles = await response.json();
 
     const recentArticles = articles.sort((a, b) =>
