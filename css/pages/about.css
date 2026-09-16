@@ -1,5 +1,5 @@
 #main .About {
-    height: 589px;
+    height: 626px;
     padding-top: 7rem;
     margin-top: 3.5rem;
 }
@@ -9,6 +9,14 @@
     flex-direction: row-reverse;
     column-gap: 6rem;
     align-items: center;
+}
+
+.PhotoAbout img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 26px;
+    overflow: hidden;
+    border: 2px solid var(--text);
 }
 
 .TitleAbout {

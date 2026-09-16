@@ -15,8 +15,12 @@ export async function loadMarkdownArticle(slug) {
     const fileArticle = await fetch(path);
     const markdown = await fileArticle.text();
     const html = marked.parse(markdown);
-
+    const articletitle = article.title;
+    const createTileElement = document.createElement('h1');
     loadArticleEnhancer();
 
+    createTileElement.innerHTML = articletitle;
+
     document.querySelector('#articles-content').innerHTML = html;
+    document.querySelector('#title-article-content').innerHTML = articletitle;
 }

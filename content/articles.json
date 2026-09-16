@@ -14,37 +14,5 @@
         "date": "2026-05-22",
         "file": "test.md",
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'."
-    },
-    {
-        "slug": "algorithmic",
-        "title": "Using CTE in SQL",
-        "category": "tSql",
-        "date": "2026-01-22",
-        "file": "test.md",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'."
-    },
-    {
-        "slug": "algorithmic",
-        "title": "Using CTE in SQL",
-        "category": "tSql",
-        "date": "2026-01-22",
-        "file": "algorithms-thinking.md",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'."
-    },
-    {
-        "slug": "algorithmic",
-        "title": "Using CTE in SQL",
-        "category": "cSharp",
-        "date": "2026-01-22",
-        "file": "algorithms-thinking.md",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'."
-    },
-    {
-        "slug": "algorithmic",
-        "title": "Using CTE in SQL",
-        "category": "cSharp",
-        "date": "2026-01-22",
-        "file": "algorithms-thinking.md",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'."
     }
 ]

@@ -3,19 +3,22 @@
   border-bottom: var( --border-shadowing-article);
 }
 
-#articles-content {
-    height: 800px;
-    margin-top: 3.5rem;
-    padding-top: 7rem;
-    display: block;
+#section-articles {
+    margin-top: 12rem;
 }
 
-#articles-content h1 {
-    color: var(--title-article);
-    font-family: 'DMSans', sans-serif;
-    font-weight: 600;
-    font-size: 2rem;
-    margin-bottom: 2rem;
+#title-article-content.activeArticle {
+  display: block;
+  margin-bottom: 2.5rem;
+  font-weight: 500;
+  font-size: 2rem;
+  font-family: 'DMSans', sans-serif;
+  color: var(--title-article);
+}
+
+#articles-content {
+    height: 800px;
+    display: block;
 }
 
 #articles-content h2{
@@ -26,3 +29,11 @@
     color: var(--subtitle-article);
 }
 
+#articles-content p{
+    font-family: 'DMSans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 200;
+    color: var(--text);
+    letter-spacing: .59px;
+    padding-bottom: .59rem;
+}
