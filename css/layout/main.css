@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'DMSans';
-    src: url('../../assets/fonts/DMSans-Medium.ttf') format('truetype');
+    src: url('/assets/fonts/DMSans-Medium.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'DMSans-R';
-    src: url('../../assets/fonts/DMSans-Thin.ttf') format('truetype');
+    src: url('/assets/fonts/DMSans-Thin.ttf') format('truetype');
 }
 
 * {
