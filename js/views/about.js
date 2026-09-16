@@ -1,4 +1,4 @@
-import { loadCleanupArticleStyle } from "../../layout/cleanupArticleStyle.js";
+import { loadCleanupArticleStyle } from "./js/layout/cleanupArticleStyle.js";
 
 export async function loadAbout() {
     const result = await fetch('./view/about/about.html');
