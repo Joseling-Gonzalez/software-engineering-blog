@@ -67,7 +67,7 @@
         column-gap: 0;
     }
 
-    .NavAbout { 
+    .NavAbout {
         margin-top: 3rem;
     }
 
@@ -318,7 +318,7 @@
         height: 941px;
     }
 
-    .About .InfoAbout { 
+    .About .InfoAbout {
         row-gap: 2.1rem;
     }
 
@@ -369,7 +369,31 @@
 }
 
 @media(max-width: 450px) {
-    #wrap{
+    #wrap {
         max-width: 341px;
+    }
+
+    #main .About {
+        height: 960px;
+    }
+}
+
+@media (max-width: 365px) {
+    #wrap {
+        max-width: 285px;
+    }
+
+    .PhotoAbout img {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    #main .About {
+        height: 1045px;
+        padding-top: 5rem;
+    }
+
+    .categoriesFooter-elements ul {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
